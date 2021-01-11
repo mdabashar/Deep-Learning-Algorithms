@@ -1,0 +1,31 @@
+The Dataset
+-----------
+We will be using a Kaggle dataset that has 20,000 Stack Overflow question titles classified into 20 categories, as follows:
+
+  1 wordpress
+  2 oracle
+  3 svn
+  4 apache
+  5 excel
+  6 matlab
+  7 visual-studio
+  8 cocoa
+  9 osx
+  10 bash
+  11 spring
+  12 hibernate
+  13 scala
+  14 sharepoint
+  15 ajax
+  16 qt
+  17 drupal
+  18 linq
+  19 haskell
+  20 magento
+
+The file "title_StackOverflow.txt" contains titles and "label_StackOverflow.txt" contains labels.
+
+
+References:
+[1] 2015NAACL VSM-NLP workshop-"Short Text Clustering via Convolutional Neural Networks" online link https://github.com/jacoxu/StackOverflow 
+[2] https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83
