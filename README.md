@@ -1,2 +1,2 @@
 # Deep-Learning-Algorithms
-CNN, LSTM, RNN, GRU, DNN, BERT, Transformer, ULMFiT, RoBERTa, AutoEncoder, VAE
+CNN, LSTM, RNN, GRU, DNN, BERT, Transformer, ULMFiT, RoBERTa, AutoEncoder, VAE, BNN
