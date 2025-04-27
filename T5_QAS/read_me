@@ -1,1 +1,11 @@
+1. "T5_Fintune_on_MeadowHealthAdvice_for_QAS.ipynb" fine-tunes a T5 Model on the medical_meadow_health_advice Dataset for Generative Question Answering: This code demonstrates the development of a Question Answering (Q&A) system using the T5 model fine-tuned on the medical_meadow_health_advice dataset. The system is trained on the first N examples from the training set, with validation and testing conducted on separate M-example splits. The process begins by loading and preprocessing the medical_meadow_health_advice data, including tokenizing the questions and context pairs and aligning the answers for model training. The t5-small model is then fine-tuned using the Hugging Face Trainer API with a custom training loop that includes validation and loss reporting. After training, the model is evaluated on a test set using the ROUGE metric to measure the quality of its generated answers. Two types of inputs are tested: one where both the question and context are provided, and another with only the question. The code also computes ROUGE scores for both input types, allowing for analysis of the model's performance based on the presence of context. 
 
+2. "Prepare_SQuAD_tiny.ipynb" notebook prepares SQuAD_tiny Dataset for Assignment 2: To mitigate computational overload, a new dataset named SQuAD_tiny can be created. SQuAD_tiny comprises the following subsets:
+• Training dataset: The first 10,000 (index 0 to 9,999) data points from the training portion of SQuAD.
+• Validation dataset: The first 1,000 (index 0 to 999) data points from the validation portion of SQuAD.
+• Test dataset: The second 1,000 (index 1,000 to 1,999) data points from the validation portion of SQuAD.
+
+• • It selects first 20 data points (index 0 to 19) from the test set of SQuAD_tiny.
+
+
+3. "T5_QA_Load_TestOnSquad.ipynb" notebook shows how to load pretrained "t5-base-finetuned-question-answering" model and asks questions to generate answers. 
